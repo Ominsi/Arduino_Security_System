@@ -36,7 +36,7 @@ void loop() {
   if (Serial.available()) {
     boolean receive = Serial.read();
     if (receive) {
-      http.POST(httpRequestData);
+      http.POST("");
     }
   }
 
