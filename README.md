@@ -24,9 +24,8 @@ The security system begins in disarmed mode with a default security code and a m
 
 ## Context Diagram
 ![Context Diagram](https://github.com/Ominsi/Arduino_Security_System/blob/main/Diagrams/ContextDiagram.png?raw=true)
-
 ## Sequence Diagram
- 
+![Sequence Diagram](https://github.com/Ominsi/Arduino_Security_System/blob/main/Diagrams/SequenceDiagram.png?raw=true)
 ## Transition Functions
 ### Arduino to ESP
 - Serial.write() -> Writes to the serial, allowing to be read from the ESP.
