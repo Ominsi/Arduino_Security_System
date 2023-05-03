@@ -23,8 +23,9 @@ To be used correctly, the information for the wifi and an email must be added to
 The security system begins in disarmed mode with a default security code and a master code. While disarmed, the security code can be inputted and either ‘A’ or ‘C’ be pressed. If ‘A’ is pressed the system becomes armed. If ‘C’ is pressed the system asks for a new code to be inputted. Once it is typed in it asks for it to be typed in again. If both codes match, then the security code is changed. Otherwise, it is not, and an error message appears saying so. While the system is armed, it waits to see if any motion is sensed by the motion detector. At any time, the security code can be entered and when ‘D’ is clicked after the system is disarmed. When motion is detected, the buzzer begins emitting a low frequency noise for an allotted time, the grace period. During this time the system can be disarmed as usual with the security code and if it does nothing else happens. If the grace period ends, an email is sent to the saved email for the user with the date and time of the grace period ending. During the grace period, the buzzer also switches to a high pitch frequency and the master code must be entered after the normal disarming process to disarm the system. At any point, an invalid choice shows a message saying so. Any time when input is begun, a timeout period exists where if the input does not end during this time, the system resets to before the input started. The security code and master code are both 4 characters long.
 
 ## Context Diagram
- 
-##Sequence Diagram
+![Context Diagram](https://github.com/Ominsi/Arduino_Security_System/blob/main/Diagrams/ContextDiagram.png?raw=true)
+
+## Sequence Diagram
  
 ## Transition Functions
 ### Arduino to ESP
